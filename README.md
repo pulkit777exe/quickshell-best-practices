@@ -1,17 +1,10 @@
-# Quickshell skills
+# quickshell-best-practices
 
-Agent skills for creating, changing, debugging, reviewing, and verifying portable Quickshell QML shells.
+A concise Quickshell skill for building, refactoring, and reviewing portable QML shells.
 
-## Skill
+- [SKILL.md](SKILL.md) — workflow, rules, and completion criteria.
+- [QML reference](reference/qml.md) — structure, state, screens, and loading.
+- [Edge reference](reference/edges.md) — processes, services, config, IPC, and security.
+- [Verification reference](reference/verification.md) — tests and runtime checks.
 
-- [quickshell-best-practices](quickshell-best-practices/Readme.md)
-  - [SKILL.md](quickshell-best-practices/SKILL.md) — workflow, rules, and completion criteria
-  - [QML reference](quickshell-best-practices/reference/qml.md)
-  - [Edge reference](quickshell-best-practices/reference/edges.md)
-  - [Verification reference](quickshell-best-practices/reference/verification.md)
-
-## Install
-
-Add `quickshell-best-practices/` using the skill mechanism supported by your agent.
-
-The Quickshell documentation for the installed version is the API authority.
+Read the main skill first; load a reference only when its branch applies. The Quickshell documentation for the installed version is the API authority.
